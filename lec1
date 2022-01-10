@@ -1,0 +1,18 @@
+web development - 
+1)frontend - display and layout of our website
+2)backend - fetch the data from database and send it to your frontend, to way work - send the data to database and retrieve the data from database.
+3)database - storage location for all the information
+
+frontend
+HTML  - HyperText Markup Language,markup language
+    USES
+        - to display content over the website.
+
+html tags
+<html>
+<img>
+<a>
+
+two types of tag - 
+1)  container tag - tags which have both opening and closing tags
+2)  empty tag - have only opening tag <img> <br>
