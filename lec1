@@ -16,3 +16,6 @@ html tags
 two types of tag - 
 1)  container tag - tags which have both opening and closing tags
 2)  empty tag - have only opening tag <img> <br>
+
+SEMANTIC TAGS - tags which have a meaning attached to it are known as SEMANTIC TAGS
+eg: img, form, ol,ul
