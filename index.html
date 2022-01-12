@@ -109,13 +109,15 @@
         <!-- it is used to create form -->
         <form>
             <!-- label : heading for your input tag -->
-            <label>NAME</label>
+            <label for="name"> FIRST NAME</label>
             <!-- input tag : it is used to except input from the user -->
             <!-- input tag has an attribute called type - which specifies the type of content we expect user to enter -->
-            <input type="text">
+            <input type="text" id="name" name="first-name">
+            <!-- Aanchal -->
+            <!-- (name attribute)first-name:Aanchal(value) -->
 
-            <label>EMAIL</label>
-            <input type="email">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email">
 
             <label>PASSWORD</label>
             <input type="password">
@@ -176,6 +178,72 @@
             <img src="">
         </header>
     </div>
+
+
+
+    <!-- ------------------------------------------LECTURE 3 ----------------------------------------------- -->
+    <!-- 1) input type radio and checkbox -->
+
+    <p>Do you like coding?</p>
+    <!-- input field have a VVVV imp attribute called NAME -->
+    <!-- to group together multiple radio buttons we use SAME VALUE for NAME attribute of the corresponding input fields -->
+    <input type="radio" id="yes" name="opinion" value="yes">
+    <label for="yes">YES</label>
+    <!-- opinion:yes -->
+
+    <input type="radio" name="opinion" value="no">
+    <label>NO</label>
+    <!-- opinion:no -->
+
+    <!-- radio buttons can be converted to checkboxes by giving different name attributes -->
+    <!-- BUT checkboxes cannot be converted to radio buttons even if we give them same name attribute -->
+
+    <!-- checkboxes -->
+    <p>What are your hobbies</p>
+    <input type="checkbox" name="hobby1" value="painting">
+    <label>painting</label>
+
+    <input type="checkbox" name="hobby2" value="coding">
+    <label>coding</label>
+
+    <input type="checkbox" name="hobby3">
+    <label>reading</label>
+
+    <input type="checkbox" name="hobby4">
+    <label>cooking</label><br>
+    <!-- hobby1:painting&hooby2:coding -->
+
+
+    <!-- 2) placeholder to input fields -->
+    <!-- placeholder text is used to provide extra info about input field -->
+    <label>FIRST NAME</label>
+    <input type="text" name="first-name" placeholder="Enter your first-name"><br>
+
+    <label>LAST NAME</label>
+    <input type="text" name="last-name" placeholder="Enter your last-name">
+
+    <br><br><br><br>
+
+    <!-- 3) require a field -->
+    <form>
+        <label>NAME</label>
+        <input type="text" name="name" placeholder="Enter your name" required><br>
+
+        <label>EMAIL</label>
+        <input type="email" name="email" placeholder="Enter your email" required><br>
+        <!--email:abc@gmail.com  -->
+
+        <label>COLLEGE NAME</label>
+        <input type="text" name="college-name" placeholder="Enter your college name"><br>
+
+        <!-- ways of creating submit button -->
+        <!-- <button>SUBMIT</button><br> -->
+        <input type="submit">
+    </form>
+
+    <!-- 4) value for radio and checkbox -->
+
+
     </body>
     <!--closing tag  -->
 </html>
