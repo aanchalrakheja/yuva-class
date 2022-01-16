@@ -1,3 +1,18 @@
-div{
-    background-color:yellow;
-}
+
+        h1{
+            /* color:text color */
+            color:red;
+            background-color:yellow;
+        }
+        h2{
+            color:blue;
+        }
+        h3{
+            background-color:lightgreen;
+        }
+        h4{
+            color:blue;
+        }
+        h6{
+            color:violet;
+        }

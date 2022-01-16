@@ -1,0 +1,15 @@
+CSS - Cascading Style Sheets 
+- it is used for styling our webpage and making it more attractive and appealing
+- design part
+
+There are 3 types of applying CSS to your HTML code
+1) style tag - it will contain all the styles for our webpage(html document)
+2) LINK tag - the link tag will allow us to link to a seperate css file
+ - SYNTAX: <link rel="stylesheet" href="style.css">
+3) INLINE style - you specify the styles within the opening tag of your HTML tag.
+
+** LINK TAG IS THE BEST WAY TO APPLY CSS TO HTML CODE
+
+CSS PROPERTIES
+1)color - text color
+2)background-color: it is used for applying background
