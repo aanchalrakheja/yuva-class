@@ -1,0 +1,49 @@
+/* selecting by tag name */
+/* h1{
+    color:red;
+} */
+
+/* * is universal selector (it will select all the elements */
+*{
+    background-color:lightgrey;
+    font-size:20px;
+}
+
+/* selecting by class name */
+.red-color{
+    color:red;
+}
+
+/* selecting by id */
+#yellow-color{
+    color:yellow;
+}
+
+
+.px-size{
+    /* background-color:pink; */
+    width:200px;
+    height:200px;
+    color:green;
+}
+
+.percentage-size{
+    /* background-color:lightblue; */
+    /* 50% of 200px */
+    width:50%;
+    /* 50% of 200px */
+    height:100%;
+    /* 200% of 200px =400px*/
+    color:white;
+}
+
+.rem-size{
+    background-color: red;
+    /* 2% of width of html doc */
+    width:50rem;
+    /* 2% of height of html doc */
+    height:20rem;
+    /* 2*16px = 32px */
+    /* 1* font-size of html tag */
+    font-size:2rem;
+}

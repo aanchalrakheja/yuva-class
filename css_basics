@@ -13,3 +13,39 @@ There are 3 types of applying CSS to your HTML code
 CSS PROPERTIES
 1)color - text color
 2)background-color: it is used for applying background
+
+CSS SELECTORS - allow you to select different html elements
+1)class : attribute that is given to an html element
+ - one element can hve multiple classes
+ - one class can be given to multiple html elements
+ - dot symbol(.) is used to select elements with classes while writing css
+ use: when we want to select one or more html elements together
+
+2) id: attribute that is given to an html element
+    - one html element can have only 1 id
+    - one id can be given to only 1 element i.e id is unique for every html tag
+    - two elements cannot have same id 
+    -hash tag (#) is used to select element with id while writing css
+
+CSS UNITS
+ - unit : it is used for measurement
+ The basic unit that we use is pixel (px)
+ classify the units in 2 types
+ 1)absolute : the size is always fixed, the unit used is pixel(px)
+ 1px=0.2mm
+ font-size:2px(2*0.2 mm)=0.4mm
+
+ 2)relative : they are dependent units, eg: %,rem,vh,vw;
+ height:40%; (that the height of the image will be 40% of it's parent)
+ %: is calculated with respect to the parent
+ vh: view height (height of your display screen)
+     height:2vh; (2% of your screen height)
+vw: view width (width of your screen)
+    width:3vw (3% of your screen width)
+rem: it is dependent on the html element
+    font-size:1rem (1*font-size of html element)
+    *1 rem is the default size 
+    1rem =16px;
+    ** the default font-size:16px;
+
+** EVERY CHILD element DERIVES IT'S PROPERTY FROM IT'S ELEMENT
