@@ -13,6 +13,14 @@ There are 3 types of applying CSS to your HTML code
 CSS PROPERTIES
 1)color - text color
 2)background-color: it is used for applying background
+3) font-size: it is used to specify the size of our text
+4) width
+5) height
+6)font-family: it is used to specify the font-style, times new roman, arial etc
+7)font-weight: it is used to specify the boldness of your text, 3 different values in words: normal(no bold,default value),bold,bolder
+8)text-decoration: it is used to apply decoration to your text: underline, line-through,overline
+9)text-decoration-color: it gives color to your decoration
+10)text-decoration-style: it specifies the style of our decoration : dashed, solid, dotted, wavy
 
 CSS SELECTORS - allow you to select different html elements
 1)class : attribute that is given to an html element
@@ -49,3 +57,5 @@ rem: it is dependent on the html element
     ** the default font-size:16px;
 
 ** EVERY CHILD element DERIVES IT'S PROPERTY FROM IT'S ELEMENT
+
+RESPONSIVENESS : approach of building websites that makes sure that our website works perfectly on different screen size.
