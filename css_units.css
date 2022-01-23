@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 /* selecting by tag name */
 /* h1{
     color:red;
@@ -86,4 +87,66 @@
 .first-img{
     width:100%;
     height:100px;
+}
+
+/* custom font */
+.custom-font{
+    font-family: 'Neonderthaw', cursive;
+}
+
+/* borders */
+.red-border{
+    width:200px;
+    height:200px;
+    border:5px solid red;
+}
+.thick-border{
+    height:100px;
+    width:100px;
+    border: 20px dashed yellow;
+}
+.circular-div{
+    height:100px;
+    width:100px;
+    border:2px solid green;
+    border-radius:50%;
+}
+.circular-img{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius:50%;
+}
+
+/* rgb colors */
+.rgb1{
+    height:100px;
+    width:50px;
+    background-color:rgb(255,65,0);
+}
+.rgb2{
+    height:100px;
+    width:100px;
+    /* background-color:blue; */
+    background-color: rgb(0,0,255);
+}
+
+
+/* box-model */
+#box-model{
+    height:100px;
+    width:100px;
+    background-color:rgb(255,255,0);
+    border:2px solid black;
+    padding:10px;
+    margin:20px;
+}
+
+#box-model2{
+    height:100px;
+    width:100px;
+    background-color:rgb(255,255,0);
+    border:2px solid black;
+    padding:10px;
+    margin:20px;
 }

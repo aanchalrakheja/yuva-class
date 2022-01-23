@@ -21,6 +21,12 @@ CSS PROPERTIES
 8)text-decoration: it is used to apply decoration to your text: underline, line-through,overline
 9)text-decoration-color: it gives color to your decoration
 10)text-decoration-style: it specifies the style of our decoration : dashed, solid, dotted, wavy
+11)border : it is used to give borders to our elements. It has three values: thickness of the border type of border(solid/dotted/dashed/wavy) color of the border
+    border:5px solid red
+12) border-radius : it is used to give curved border
+     -it's value can be in % or in px
+     - border-radius:50% (it creates a circular shape)
+
 
 CSS SELECTORS - allow you to select different html elements
 1)class : attribute that is given to an html element
@@ -59,3 +65,25 @@ rem: it is dependent on the html element
 ** EVERY CHILD element DERIVES IT'S PROPERTY FROM IT'S ELEMENT
 
 RESPONSIVENESS : approach of building websites that makes sure that our website works perfectly on different screen size.
+
+CUSTOM FONTS:
+1) we used google fonts
+https://fonts.google.com/
+
+COLORS:
+1) by writing the color name
+2) rgb - red green blue (primary colors)
+rgb(0,255,1): x,y,z are in range 0 to 255
+
+secondary colors - formed by combination of primary colors 
+- yellow: red+green
+- pink : blue+red
+
+CSS BOX MODEL
+1) each html element is as a form of a box-model
+2) it contains text, padding,border,margin
+
+padding: the difference/gap between our content and our border
+margin: the difference/gap between our element and our page corners.
+
+
