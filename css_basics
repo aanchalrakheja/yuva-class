@@ -26,6 +26,9 @@ CSS PROPERTIES
 12) border-radius : it is used to give curved border
      -it's value can be in % or in px
      - border-radius:50% (it creates a circular shape)
+13)margin
+14)padding
+15)display
 
 
 CSS SELECTORS - allow you to select different html elements
@@ -85,5 +88,19 @@ CSS BOX MODEL
 
 padding: the difference/gap between our content and our border
 margin: the difference/gap between our element and our page corners.
+    -top -bottom -left -right
+
+** margin and padding are applied in CLOCKWISE direction (top->right->bottom->left)
+
+** CSS WORKS IN TOP TO BOTTOM APPROACH
+
+-------------------------DISPLAY PROPERTY-----------------
+
+1) block :take up entire width of your webpage and they always start from a new line 
+-> div tag, p tag. h1...h6 is a block elements
+
+2)  inline :take up the width acc to their content and also they don't start from a new line
+->img tag, span
+
 
 
