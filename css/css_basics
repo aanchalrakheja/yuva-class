@@ -28,7 +28,7 @@ CSS PROPERTIES
      - border-radius:50% (it creates a circular shape)
 13)margin
 14)padding
-15)display
+15)display -> block,inline and inline-block,flex (flexbox)
 
 
 CSS SELECTORS - allow you to select different html elements
@@ -98,9 +98,14 @@ margin: the difference/gap between our element and our page corners.
 
 1) block :take up entire width of your webpage and they always start from a new line 
 -> div tag, p tag. h1...h6 is a block elements
+-> they can be given a specified width and height
 
 2)  inline :take up the width acc to their content and also they don't start from a new line
 ->img tag, span
+-> cannot be given any width or height
+
+3) inline-block : they can be given width and height but they still start from the same line.
+
 
 
 

@@ -1,0 +1,36 @@
+Flexbox: is a way of displaying our content/element,
+-> it arranges all it's children side by side (in one row)
+
+1) flex container : it is the elements that contains all your flex-items(parent)
+ - flex-direction: it is used to specify in which direction should the elements be displayed (DEFAULT: ROW)
+    -- row: all the elements are displayed row-wise or in a row
+    -- column: all the elements are displayed column-wise or in a single column
+    -- row-reverse: all the elements will be displayed row-wise but in reverse order (10 will be first and 1 will last)
+    -- column-reverse: all the elements will be displayed column-wise but in reverse order (10 will be first and 1 will last)
+
+ - justify-content(X-AXIS/HORIZONTAL): it is used to align the flex items horizontally
+    -- center: it places them in center
+    -- start/flex-start: its places then at the very start
+    --end/flex-end: it places them at the very end of flex-container
+    -- space-between: it distributes space between the elements
+    -- space-around: it distributes space around the elements
+    --space-evenly: it distributes equal space around as well in between the elements
+
+ - align-items(Y AXIS/vertical): it is used to align the flex-items vertically
+    -- center: it centers the items vertically
+    -- flex-start: DEFAULT, it places the items at the very start vertically
+    -- flex-endL it places the items at the vertical end
+
+ - flex-wrap: it specifies whether our flex-container should be single line or multi-line (DEFAULT:SINGLE LINE => flex-wrap:nowrap)
+    -- nowrap: single line
+    -- wrap: multi line
+    -- wrap-reverse: multi line but in reverse order
+
+ -align-content: it is used to position your flex-lines
+  -- stretch(DEFAULT): the flex-line stretch to take up equal space
+  -- center: the flex-line are placed in center of our container
+  -- flex-start: the flex-line are placed in start of our container
+  -- flex-end: the flex-line are placed in end of our container
+
+
+2) flex-items: they are all the elements present inside the flex-container (children)

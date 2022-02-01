@@ -1,0 +1,25 @@
+.block1{
+    background-color: yellow;
+    /* display:inline; */
+    width:100px;
+    height:100px;
+}
+.block2{
+    background:red;
+    /* display: inline; */
+}
+p{
+    background-color:lightgreen;
+}
+.inline{
+    background-color: lightsalmon;
+    display:inline-block;
+    width:100px;
+    height:100px;
+}
+.inline-block{
+    background-color: lightsalmon;
+    /* display:inline-block; */
+    width:100px;
+    height:100px;
+}
