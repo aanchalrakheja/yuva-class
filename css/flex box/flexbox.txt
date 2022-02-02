@@ -34,3 +34,13 @@ Flexbox: is a way of displaying our content/element,
 
 
 2) flex-items: they are all the elements present inside the flex-container (children)
+
+--order: it is used to specify the position of your flex-item based or the increasing order of value of ORDER PROPERTY (DEFAULT:0)
+
+-- flex-grow: its specifies how our flex-item will grow or expand with respect to other items.
+--flex-shrink: its specifies how our flex-item will reduce with respect to other items.
+-- align-self: this property is used to align the respective flex-item inside the container. it will over write the ALIGN-ITEMS PROPERTY
+ - flex-start: it aligns the item at the start
+ - flex-end: aligns the item at the end
+ - center: aligns the item to the center
+ 
