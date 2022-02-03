@@ -1,0 +1,25 @@
+1) em unit - relative unit
+rem - relative unit, it measure the property value relative to the respective value of HTML ELEMENT
+
+em: it measure the property value relative to the respective value of PARENT ELEMENT
+
+width/height: %,px,vh,vw
+
+font-size: em,rem
+2em: 2*font size of parent element
+2rem: 2*font-size of html element (default:16px 2*16)
+
+2) FLEX BASIS
+- it is property that is applied to our flex-items
+- it is used to specify the size of the items before they stretch or shrink (original size)
+- out of width/flex-basis : FLEX BASIS DOMINATES (WIDTH IS NOT CONSIDERED)
+-flex-direction:row -> flex-basis will change the width of my item
+-flex-direction:column -> flex-basis will change the height of my items.
+
+3) align-item VS align-content
+align-items: it is used to align my items vertically inside our container
+-- flex-start,flex-end and center
+
+align-content:
+** it will be applied only when u have multiple rows/columns
+** flex-wrap:wrap
