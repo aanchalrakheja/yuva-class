@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Variables</title>
+    <style>
+        *{
+            /* --variable name : value */
+            --my_color:rgb(24,56,89);
+        }
+        h1,p{
+            color:var(--my_color,red);
+        }
+        h2{
+            /* color:red; */
+            color:var(--my_color);
+        }
+        span{
+            /* color:yellow; */
+            color:var(--my_color);
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h1>Heading 2</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nisi id vel perspiciatis ullam aliquam vitae nesciunt in repellat doloribus recusandae, velit quam sint, quis alias itaque consectetur corrupti at repellendus. Eaque, mollitia facilis dignissimos excepturi architecto quae optio blanditiis!</p>
+    <h1>Heading 3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum quidem earum vel sed deserunt. Asperiores doloribus tempore ea praesentium, laboriosam beatae architecto quaerat excepturi est sapiente saepe. Earum, laudantium, incidunt exercitationem molestiae cum odit libero possimus cupiditate nemo excepturi quisquam ducimus pariatur sequi? Cupiditate, suscipit! Cupiditate, dolor temporibus! Nam?</p>
+    <h1>Heading 4</h1>
+    <h2>Heading</h2>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, doloribus!</span>
+</body>
+</html>

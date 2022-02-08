@@ -1,0 +1,25 @@
+1) list-style: it a property of ordered/unordered list. It is used to specify the type of numbering/bullet we want in our list.
+    - list-style:none (remove the bullets)
+
+2) applying background image
+    background:url("path of our image")
+    url: it is used to specify the path to the image we want to apply as background
+
+3) opacity: it is used to specify how clearly my element is visible. It can have values between 0 and 1.
+0: disappear
+1: completely visible
+** the opacity of the parent element is given preference
+
+4)filters
+5) text-transform : it allows to change the case of our text
+    --lowercase : all small 
+    -- uppercase : all capital
+    -- capitalize: first letter of each word will be capital and rest will small
+
+flex-direction : ROW
+    justify-content:horizontal positioning
+    align-items:vertical positioning
+
+flex-direction : COLUMNS
+    justify-content:vertical positioning
+    align-items:horizontal positioning
