@@ -65,3 +65,63 @@ main button:hover{
     color:green;
 }
 
+/* about us section */
+#about{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.2rem;
+}
+#about-img{
+    width:200px;
+    height:140px;
+}
+#about-img img{
+    /* width:100px */
+    width:100%;
+    height:100%;
+}
+#about-content{
+    /* background-color:yellow; */
+    width:400px;
+    padding:10px;
+}
+.heading{
+    color:green;
+    margin:0px 0px 12px 0px;
+}
+.green-text{
+    color:green;
+}
+
+/* specialty section */
+#speciality{
+    background-color: green;
+    padding:1.2rem;
+}
+#speciality .heading{
+    color:white;
+    text-align:center;
+}
+#specialty-content{
+    display:flex;
+    justify-content: space-evenly;
+}
+.content-box{
+    width:120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.content-box img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.content-box p{
+    color:white;
+    text-transform: uppercase;
+    font-size:12px;
+    margin:10px 0px 0px 0px;
+}

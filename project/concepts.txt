@@ -23,3 +23,10 @@ flex-direction : ROW
 flex-direction : COLUMNS
     justify-content:vertical positioning
     align-items:horizontal positioning
+
+6) applying in different directions using different properties
+    margin-top:10px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    
