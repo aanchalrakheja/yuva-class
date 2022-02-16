@@ -30,3 +30,25 @@ flex-direction : COLUMNS
     margin-left:0px;
     margin-right:0px;
     
+7) text area - input field which allows the user to enter multiple line/paragraph based input
+    - name
+    - id
+
+#resizing the text area : resize:none
+
+MEDIA QUERIES
+- allow us to specify styles for a particular screen size
+- helps us to achieve responsiveness
+
+0-500px : style1
+@media (max-width:500px)
+{
+    style 1
+}
+500-700 : style 2
+@media (max-width:700px)
+{
+    style 2
+}
+700-max : style 3
+// default css will be applied
